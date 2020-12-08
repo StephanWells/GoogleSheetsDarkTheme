@@ -1,0 +1,222 @@
+/* ==UserStyle==
+@name         Google Sheets Dark Theme
+@version      0.1.0
+@description  A Dark theme for Google Sheets
+@namespace    StephanWells
+@author       StephanWells
+@homepageURL  https://github.com/StephanWells/GoogleSheetsDarkTheme
+@supportURL   https://github.com/StephanWells/GoogleSheetsDarkTheme/issues
+@updateURL    https://raw.githubusercontent.com/StephanWells/GoogleSheetsDarkTheme/master/google-forms-dark-theme.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/.*") {
+    #docs-chrome {
+        background: #151617;
+    }
+
+    input {
+        background-color: #151617;
+        color: #dee0e3 !important;
+    }
+
+    body {
+        background-color: #151617;
+        color: #dee0e3;
+    }
+
+    .docs-title-input {
+        opacity: 0;
+        font-size: 20px;
+    }
+
+    .docs-title-input:focus {
+        opacity: 1;
+        font-size: 20px;
+    }
+
+    .goog-menu {
+        background: #202124;
+        color: #9fa2a6;
+    }
+
+    .goog-menuitem-checkbox {
+        opacity: 1;
+        filter: invert(60%);
+    }
+
+    .docs-gm .goog-menuitem {
+        color: #9fa2a6;
+    }
+
+    .goog-submenu-arrow {
+        color: #9fa2a6;
+    }
+
+    .docs-gm .docs-menubar .goog-control-disabled {
+        color: #9fa2a6;
+        background-color: #151617;
+    }
+
+    .docs-gm .docs-menubar .goog-control-open {
+        background-color: #202124;
+    }
+
+    .docs-gm .goog-menuitem-highlight {
+        background-color: #2d2e30;
+    }
+
+    .goog-menuitem-highlight .goog-menuitem-content, .goog-menuitem-hover .goog-menuitem-content {
+        color: #9fa2a6;
+    }
+
+    .docs-gm .goog-menuitem-disabled, .docs-gm .goog-menuitem-disabled .goog-menuitem-content {
+        color: #5a5b61 !important;
+    }
+
+    .docs-omnibox-input.jfk-textinput {
+        border: 1px solid #70757a;
+    }
+
+    .docs-omnibox-input.jfk-textinput:focus {
+        border: 1px solid #04acb8;
+    }
+
+    .docs-gm .docs-menubar .goog-control-active, .docs-gm .docs-menubar .goog-control:hover:active {
+        background-color: #202124;
+    }
+
+    .goog-option-selected .goog-menuitem-content {
+        color: #dee0e3;
+    }
+
+    .script-promo-menu-item-description {
+        color: #9fa2a6;
+        font-size: 13px;
+    }
+
+    .docs-title-input-label-inner {
+        font-size: 20px;
+    }
+
+    .script-promo-menu-item-title {
+        color: #9fa2a6;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .docs-menubars {
+        border-color: #dee0e3 !important;
+    }
+
+    .jfk-tooltip {
+        border: 1px solid #70757a;
+    }
+
+    .docs-parent-collections-container-folder-name {
+        color: #70757a;
+    }
+
+    .docs-gm ::-webkit-scrollbar-thumb {
+        background-color: #70757a !important;
+    }
+
+    .docs-parent-collections-container:hover, .docs-parent-collections-container:focus {
+        background-color: #202124;
+    }
+
+    .goog-menuseparator {
+        border-top: 1px solid #70757a !important;
+    }
+
+    .docs-gm .docs-menubar .goog-control {
+        color: #9fa2a6;
+    }
+
+    .docs-gm .docs-menubar .goog-control-hover {
+        background-color: #202124;
+    }
+
+    .docs-gm .goog-menuitem-active:hover:active {
+        background-color: #3a3b3d;
+    }
+
+    .docs-gm .docs-titlebar-badge:hover, .docs-titlebar-badge.goog-flat-button-focused, .docs-titlebar-badge.goog-control-focused, .goog-control-focused .docs-titlebar-badge {
+        background-color: #202124;
+    }
+
+    .docs-material #docs-header .docs-titlebar-buttons {
+        background-color: #151617;
+    }
+
+    .docs-gm .docs-title-input:focus {
+        border: 2px solid #04acb8 !important;
+    }
+
+    .gb_F {
+        background: #202124;
+        color: #9fa2a6;
+    }
+
+    .gb_4b {
+        color: #9fa2a6;
+    }
+
+    .gb_xb.gb_xb {
+        color: #9fa2a6;
+    }
+
+    .gb_l .gb_rb {
+        color: #70757a;
+    }
+
+    .gb_6b {
+        color: #70757a;
+    }
+
+    .gb_vb.gb_vb {
+        background-color: #04acb8;
+        border: 1px solid #202124;
+        color: #202124;
+    }
+
+    .gb_Pb.gb_Nb:hover {
+        background-color: #2d2e30;
+    }
+
+    .gb_vb.gb_vb:focus {
+        background-color: #088f99;
+    }
+
+    .gb_Hb.gb_Hb, .gb_Ib.gb_Ib {
+        background-color: #04acb8;
+        border: 1px solid #202124;
+        color: #202124;
+    }
+
+    .gb_zb.gb_zb {
+        background-color: #202124;
+        color: #9fa2a6;
+    }
+
+    .gb_zb.gb_zb:hover {
+        background-color: #2d2e30;
+    }
+
+    .gb_zb.gb_zb:focus {
+        background-color: #3a3b3d;
+    }
+
+    .gb_Fb {
+        border-bottom: 1px solid #70757a;
+        border-top: 1px solid #70757a;
+    }
+
+    .gb_Mb {
+        border-top: 1px solid #70757a;
+    }
+
+    .gb_Hb.gb_Hb:focus, .gb_Ib.gb_Ib:focus {
+        background-color: #088f99;
+    }
+}
