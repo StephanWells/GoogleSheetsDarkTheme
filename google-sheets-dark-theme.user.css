@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.0.2
+@version      1.1.0
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -292,6 +292,86 @@
     .docs-omnibox-input.jfk-textinput:focus {
         border: 1px solid #2e944d;
     }
+    
+    .waffle-conditionalformat-add-rule-button {
+        background: #202124;
+        color: #2e944d;
+    }
+    
+    .docs-sidebar-toggle-tabs .jfk-button.docs-sidebar-toggle-tab-active {
+        color: #2e944d;
+    }
+    
+    .docs-sidebar-toggle-tabs .jfk-button.docs-sidebar-toggle-tab-inactive:hover {
+        color: #9fa2a6;
+    }
+    
+    .waffle-range-selection-container {
+        border: 1px solid #70757a;
+        color: #70757a;
+        background: #202124;
+    }
+    
+    .waffle-sidebar-container .jfk-textinput {
+        border: 1px solid #70757a;
+    }
+    
+    .waffle-conditionalformat-edit-pill-section-header {
+        color: #9fa2a6;
+    }
+    
+    .waffle-conditionalformat-edit-pill-section-label {
+        color: #70757a;
+    }
+    
+    .waffle-conditionalformat-condition-type-select .goog-flat-menu-button, .waffle-conditionalformat-condition-date-select .goog-flat-menu-button {
+        background: #202124;
+        border: 1px solid #70757a !important;
+    }
+    
+    .waffle-sidebar-container .goog-flat-menu-button:active {
+        background-color: #2d2e30;
+    }
+    
+    .waffle-sidebar-container .goog-flat-menu-button-caption {
+        color: #dee0e3;
+    }
+    
+    .waffle-conditionalformat-custom-toolbar {
+        background-color: #151617;
+        border: 1px solid #70757a;
+    }
+    
+    .waffle-conditionalformat-format-button.goog-flat-menu-button, .waffle-conditionalformat-format-button .goog-flat-menu-button-caption, .waffle-conditionalformat-format-button-inner {
+        border: 1px solid #70757a !important;
+    }
+    
+    .waffle-conditionalformat-view-pill {
+        background-color: #202124;
+        border-bottom: 1px solid #70757a;
+    }
+    
+    .waffle-conditionalformat-view-pill:focus, .waffle-conditionalformat-view-pill:hover {
+        background-color: #2d2e30;
+    }
+    
+    .waffle-sidebar-container .jfk-button-standard {
+        background: #202124;
+        border: 1px solid #70757a !important;
+        color: #2e944d;
+    }
+    
+    .waffle-conditionalformat-condition {
+        color: #9fa2a6;
+    }
+    
+    .waffle-conditionalformat-range {
+        color: #70757a;
+    }
+    
+    .docs-sidebar-toggle-tabs {
+        background-color: #202124;
+    }
 
     .docs-gm .docs-menubar .goog-control-active, .docs-gm .docs-menubar .goog-control:hover:active {
         background-color: #202124;
@@ -305,6 +385,19 @@
     .waffle-assistant-entry-expanded {
         background-color: #202124;
         border-left: 1px solid #70757a;
+    }
+    
+    .waffle-sidebar-title {
+        border-bottom: 1px solid #70757a;
+        border-top: 1px solid #70757a;
+        color: #dee0e3;
+        background-color: #202124;
+    }
+    
+    
+    
+    .waffle-sidebar-content {
+        background-color: #202124;
     }
     
     .goog-option-selected .goog-menuitem-content {
@@ -329,6 +422,30 @@
         font-size: 20px;
     }
     
+    .waffle-conditionalformat-add-another-rule-button {
+        background: #202124;
+        color: #2e944d;
+        background-color: #202124;
+        padding-bottom: 40px;
+    }
+    
+    .docs-sidebar-gm-titlebar-icon-button:hover {
+        background-color: #2d2e30;
+    }
+    
+    .waffle-conditionalformat-add-another-rule-button:focus, .waffle-conditionalformat-add-another-rule-button:hover {
+        background-color: #2d2e30;
+        background: #2d2e30;
+    }
+    
+    .waffle-sidebar-container .goog-flat-menu-button {
+        border: 1px solid #70757a;
+    }
+    
+    .waffle-conditionalformat-edit-pill-button-bar {
+        border-bottom: 1px solid #70757a;
+    }
+    
     #formula-bar {
         background: #202124;
         border-bottom: 1px solid #70757a;
@@ -338,6 +455,14 @@
         opacity: 1;
         filter: brightness(1.6);
         color: #dee0e3;
+    }
+    
+    .docs-gm #docs-editor, .docs-gm #docs-editor-container {
+        background: #70757a;
+    }
+    
+    .waffle-conditionalformat-gradient-min-input.label-input-label-disabled, .waffle-conditionalformat-gradient-mid-input.label-input-label-disabled, .waffle-conditionalformat-gradient-max-input.label-input-label-disabled {
+        background-color: #70757a;
     }
     
     .match-paren {
@@ -389,7 +514,7 @@
     .docs-gm .docs-material .goog-toolbar-button-hover, .docs-gm .docs-material .goog-toolbar-menu-button-hover, .docs-gm .docs-material .goog-toolbar-combo-button-hover, .docs-gm .docs-material .docs-toolbar-button-split-sympathy-hover, .docs-gm .docs-material .docs-toolbar-split-create-button, .docs-gm .docs-material .docs-toolbar-split-create-button.goog-toolbar-button-hover, .docs-gm .docs-material .docs-toolbar-split-create-button.goog-toolbar-menu-button-hover .docs-gm .docs-material.trix-palette .goog-palette-cell-hover {
         background-color: #3a3b3d;
     }
-
+    
     .docs-gm #docs-toolbar-wrapper {
         border-top: 1px solid #70757a;
         border-bottom: 1px solid #70757a;
@@ -431,9 +556,24 @@
     .docs-gm .docs-menubar .goog-control {
         color: #9fa2a6;
     }
+    
+    .docs-gm .docs-material .docs-chat.jfk-button, .docs-gm .docs-material .docs-chat.jfk-button.jfk-button-clear-outline, .docs-gm .docs-material .docs-chat.jfk-button.jfk-button-active.jfk-button-focused {
+        background-color: #202124;
+        border: 2px solid #70757a;
+        box-shadow: 0 0 0 2px #151617;
+    }
+    
+    .docs-material .docs-presence-plus-collab-widget-color-block, .docs-material.docs-presence-plus-widget-overflow-menu .docs-presence-plus-collab-widget-color-block {
+        background-color: #202124;
+        border: 2px solid #151617;
+    }
 
     .docs-gm .docs-menubar .goog-control-hover {
         background-color: #202124;
+    }
+    
+    .docs-gm .docs-material .docs-chat.jfk-button.jfk-button-hover, .docs-gm .docs-material .docs-chat.jfk-button.jfk-button-hover.jfk-button-clear-outline, .docs-gm .docs-material .docs-chat.jfk-button.jfk-button-hover.jfk-button-focused {
+        background-color: #3a3b3d;
     }
 
     .docs-gm .goog-menuitem-active:hover:active {
