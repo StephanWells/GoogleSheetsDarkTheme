@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.0.1
+@version      1.0.2
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -338,6 +338,11 @@
         opacity: 1;
         filter: brightness(1.6);
         color: #dee0e3;
+    }
+    
+    .match-paren {
+        background-color: #e5e5e53c;
+        font-weight: 500;
     }
     
     .cell-input {
