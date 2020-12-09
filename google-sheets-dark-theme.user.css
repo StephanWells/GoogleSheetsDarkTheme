@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      0.1.2
+@version      1.0.0
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -10,7 +10,7 @@
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/.*") {
+@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/.*"), regexp("(https://|http://)?docs.google.com/sharing/driveshare.*"), regexp("(https://|http://)?contacts.google.com/widget/hovercard/.*") {
     
     
     #docs-chrome {
@@ -30,6 +30,8 @@
     tr {
         background-color: #202124;
     }
+    
+    
 
     .docs-title-input {
         opacity: 0;
@@ -88,7 +90,7 @@
     }
     
     .docs-gm #docs-titlebar-share-client-button .jfk-button {
-        background: #3cae5f;
+        background: #188038;
         filter: brightness(0.93);
         color: #fff;
     }
@@ -105,6 +107,26 @@
     
     .docs-gm .docos-new-comment-button.jfk-button-hover, .docs-gm .docos-new-comment-button.jfk-button-focused, .docs-gm .docos-notification-settings .goog-flat-menu-button.goog-flat-menu-button-hover, .docs-gm .docos-notification-settings .goog-flat-menu-button.goog-flat-menu-button-focused {
         background-color: #2d2e30;
+    }
+    
+    .docs-gm .docs-save-indicator-popup-footer {
+        background-color: #2d2e30;
+    }
+    
+    .docs-gm .docs-save-indicator-popup-header {
+        background-color: #188038;
+    }
+    
+    .docs-material .docs-save-indicator-popup-title {
+        color: #e6f4ea;
+    }
+    
+    .docs-save-indicator-popup-subtitle {
+        color: #9fa2a6;
+    }
+    
+    .docs-save-indicator-popup-text {
+        color: #70757a;
     }
 
     .docs-title-input:focus {
@@ -141,8 +163,108 @@
         background-color: #151617;
     }
     
-    html[stylus-iframe$="google.com"] .GmCard {
-        background-color: #151617 !important;
+    .GmCard {
+        background-color: #202124;
+    }
+    
+    .boqDrivePeopleWebMultiselectAutocompleteMenu {
+        background-color: #2d2e30;
+    }
+    
+    .boqDrivesharedialogLinkLinkcopyUrlsBoxSpecificPeople {
+        background-color: #2d2e30;
+    }
+    
+    .boqDrivesharedialogLinkLinkpermissionVisibilityMenuTextButton.mdc-button:not(:disabled) {
+        color: #dee0e3;
+    }
+    
+    .boqDrivesharedialogLinkLinkpermissionLinkPermissionRow:focus-within {
+        background-color: #2d2e30;
+    }
+    
+    .boqDrivesharedialogCommonTitlebarTitleBar .DisabledSettingsButton {
+        filter: invert(0.4);
+    }
+    
+    .boqDrivesharedialogLinkLinkvisibilityselectorLinkVisibilitySelector .mdc-menu-surface--open:not(.mdc-menu-surface--animating-open):not(.mdc-menu-surface--animating-closed) {
+        background-color: #2d2e30;
+    }
+    
+    .DYLA1c, .hjLZMe {
+        background-color: #2d2e30;
+    }
+    
+    .YysZRb {
+        color: #dee0e3;
+    }
+    
+    .rABsFf {
+        color: #70757a;
+    }
+    
+    .c2Xo3b {
+        border-top: 1px solid #70757a;
+    }
+    
+    .mdc-form-field>label {
+        color: #dee0e3;
+    }
+    
+    .GmMenu .mdc-list {
+        color: #dee0e3;
+    }
+    
+    .mdc-list-item__secondary-text {
+        color: #70757a;
+    }
+    
+    .boqDrivesharedialogCommonTitlebarTitleBar .Heading .Title {
+        color: #dee0e3;
+    }
+    
+    .boqDrivesharedialogPermissionslistPermissionrowMain .boqDrivesharedialogPermissionslistPermissionrowPrimary {
+        color: #dee0e3;
+    }
+    
+    .boqDrivesharedialogPermissionslistPermissionrowMain .boqDrivesharedialogPermissionslistPermissionrowSecondary {
+        color: #70757a;
+    }
+    
+    .GmButtonGreyInkText:disabled {
+        color: #70757a;
+    }
+    
+    .boqDriveElementsCoreWebFormfield_filledFieldContainer {
+        background: #202124;
+    }
+    
+    .boqDriveElementsCoreWebFormfield_filledFieldContainer:hover {
+        background: #2d2e30;
+    }
+    
+    .boqDrivesharedialogPermissionslistPermissionrowListItem:hover .boqDrivesharedialogPermissionslistPermissionrowPermissionRow, .boqDrivesharedialogPermissionslistPermissionrowListItem:focus-within .boqDrivesharedialogPermissionslistPermissionrowPermissionRow {
+        background-color: #2d2e30;
+    }
+    
+    .boqDrivesharedialogLinkLinkpermissionLinkPermissionRow:hover {
+        background-color: #2d2e30;
+    }
+    
+    .boqDrivesharedialogLinkLinksummaryLinkPermissionsSummary {
+        color: #70757a;
+    }
+    
+    .boqDrivesharedialogLinkLinksummaryLinkPermissionsSummary .boqDrivesharedialogLinkLinksummaryBolded {
+        color: #dee0e3;
+    }
+    
+    .boqDriveElementsCoreWebScrollcontainerSeamCoverTop {
+        border-top: solid 1px #70757a;
+    }
+    
+    .boqDriveElementsCoreWebScrollcontainerSeamCoverBottom {
+        border-top: solid 1px #70757a;
     }
 
     .docs-gm .docs-menubar .goog-control-open {
