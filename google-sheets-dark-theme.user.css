@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      0.1.0
+@version      0.1.1
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -28,6 +28,31 @@
     .docs-title-input {
         opacity: 0;
         font-size: 20px;
+    }
+    
+    .docs-gm .docos-streampane-header {
+        background-color: #202124;
+        border-bottom: 0px;
+    }
+    
+    .docs-material .docs-docos-activitybox {
+        border-bottom: 1px solid #70757a;
+        border-left: 1px solid #70757a;
+        border-top: 1px solid #70757a;
+        border-right: 1px solid #70757a;
+    }
+    
+    .docs-gm .docs-material #docs-docos-commentsbutton.jfk-button.jfk-button-active, .docs-gm .docs-material #docs-docos-commentsbutton.jfk-button.jfk-button-checked {
+        background-color: #2d2e30;
+    }
+    
+    .docs-gm .docos-new-comment-button, .docs-gm .docos-notification-settings .goog-flat-menu-button {
+        background-color: #202124;
+        color: #188038;
+    }
+    
+    .docs-gm .docos-new-comment-button.jfk-button-hover, .docs-gm .docos-new-comment-button.jfk-button-focused, .docs-gm .docos-notification-settings .goog-flat-menu-button.goog-flat-menu-button-hover, .docs-gm .docos-notification-settings .goog-flat-menu-button.goog-flat-menu-button-focused {
+        background-color: #2d2e30;
     }
 
     .docs-title-input:focus {
@@ -85,7 +110,7 @@
     .docs-gm .docs-menubar .goog-control-active, .docs-gm .docs-menubar .goog-control:hover:active {
         background-color: #202124;
     }
-
+    
     .goog-option-selected .goog-menuitem-content {
         color: #dee0e3;
     }
@@ -103,6 +128,25 @@
         color: #9fa2a6;
         font-weight: bold;
         font-size: 18px;
+    }
+    
+    .docs-material #docs-toolbar-wrapper {
+        border-top: 1px solid #70757a;
+        border-bottom: 1px solid #70757a;
+        background: #151617;
+    }
+    
+    .docs-material .goog-toolbar-button, .docs-material .goog-toolbar-combo-button, .docs-material .goog-toolbar-menu-button {
+        background-color: #2d2e30;
+    }
+    
+    .docs-gm .docs-material .goog-toolbar-button-hover, .docs-gm .docs-material .goog-toolbar-menu-button-hover, .docs-gm .docs-material .goog-toolbar-combo-button-hover, .docs-gm .docs-material .docs-toolbar-button-split-sympathy-hover, .docs-gm .docs-material .docs-toolbar-split-create-button, .docs-gm .docs-material .docs-toolbar-split-create-button.goog-toolbar-button-hover, .docs-gm .docs-material .docs-toolbar-split-create-button.goog-toolbar-menu-button-hover .docs-gm .docs-material.trix-palette .goog-palette-cell-hover {
+        background-color: #04acb8;
+    }
+
+    .docs-gm #docs-toolbar-wrapper {
+        border-top: 1px solid #70757a;
+        border-bottom: 1px solid #70757a;
     }
 
     .docs-menubars {
