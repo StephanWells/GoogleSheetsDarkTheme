@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.0.0
+@version      1.0.1
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -31,7 +31,9 @@
         background-color: #202124;
     }
     
-    
+    line {
+        stroke: #dee0e3;
+    }
 
     .docs-title-input {
         opacity: 0;
