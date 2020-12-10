@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.1
+@version      1.1.2
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -225,6 +225,23 @@
         color: #dee0e3;
     }
     
+    .docs-gm .docs-colormenuitems .docs-colormenuitems-scheme-header, .docs-gm .docs-colormenuitems .docs-colormenuitems-custom-header {
+        color: #70757a;
+    }
+    
+    .docs-gm .docos-streamdocoview.docos-docoview-resolved {
+        background-color: #202124;
+        border-color: #70757a;
+    }
+    
+    .docos-streamdocoview-authorname {
+        color: #dee0e3;
+    }
+    
+    .docs-gm .docos-replyview-quote-caption {
+        color: #70757a;
+    }
+    
     .boqDrivesharedialogPermissionslistPermissionrowMain .boqDrivesharedialogPermissionslistPermissionrowPrimary {
         color: #dee0e3;
     }
@@ -237,12 +254,65 @@
         color: #70757a;
     }
     
+    .docs-gm .docos-streamdocoview .docos-replyview-quote {
+        border-left-color: #3cae5f;
+    }
+    
+    .docos-streamdocoview .docos-replyview-quote {
+        color: #9fa2a6;
+    }
+    
+    .docos-streamdocoview-body {
+        color: #dee0e3;
+    }
+    
     .boqDriveElementsCoreWebFormfield_filledFieldContainer {
         background: #202124;
     }
     
     .boqDriveElementsCoreWebFormfield_filledFieldContainer:hover {
         background: #2d2e30;
+    }
+    
+    .docs-gm .docos-docoview-resolved .docos-streamreplyview {
+        background-color: #202124;
+        border-color: #70757a;
+    }
+    
+    .docos.docs-gm .docos-streamdocoview.docos-docoview-active-experiment {
+        background-color: #2d2e30;
+        border-color: #70757a;
+    }
+    
+    .docos.docs-gm .jfk-button.jfk-button-standard {
+        color: #dee0e3;
+        background-color: #70757a;
+        border: 1px solid black !important;
+    }
+    
+    .docos.docs-gm .jfk-button.jfk-button-standard.jfk-button-hover {
+        background-color: #9fa2a6;
+        border: 1px solid black !important;
+    }
+    
+    .docs-gm .docos-docoview-resolved .docos-streamdocoview-inputcontainer {
+        background-color: #202124;
+        border-color: #70757a;
+    }
+    
+    .docs-gm .docos-streamdocoview-input-pane .docos-input-textarea {
+        border: 1px solid #70757a;
+        color: #9fa2a6;
+        background-color: #2d2e30;
+    }
+    
+    .docs-gm .docos-streamreplyview-author {
+        color: #dee0e3;
+    }
+    
+    .docs-gm .docos-streamrootreplyview .docos-action-text, .docs-gm .docos-streamreplyview .docos-action-text {
+        color: #9fa2a6;
+        opacity: 0.7;
     }
     
     .boqDrivesharedialogPermissionslistPermissionrowListItem:hover .boqDrivesharedialogPermissionslistPermissionrowPermissionRow, .boqDrivesharedialogPermissionslistPermissionrowListItem:focus-within .boqDrivesharedialogPermissionslistPermissionrowPermissionRow {
@@ -278,6 +348,11 @@
     }
 
     .goog-menuitem-highlight .goog-menuitem-content, .goog-menuitem-hover .goog-menuitem-content {
+        color: #9fa2a6;
+    }
+    
+    .waffle-function-category-row {
+        background: #202124;
         color: #9fa2a6;
     }
 
@@ -394,8 +469,6 @@
         background-color: #202124;
     }
     
-    
-    
     .waffle-sidebar-content {
         background-color: #202124;
     }
@@ -463,6 +536,60 @@
     
     .waffle-conditionalformat-gradient-min-input.label-input-label-disabled, .waffle-conditionalformat-gradient-mid-input.label-input-label-disabled, .waffle-conditionalformat-gradient-max-input.label-input-label-disabled {
         background-color: #70757a;
+    }
+    
+    .waffle-ac-renderer {
+        border-color: #70757a;
+        background: #202124;
+    }
+    
+    .waffle-formula-autocomplete-renderer .waffle-ac-active {
+        background: #2d2e30;
+        border: none !important;
+    }
+    
+    .waffle-arguments-help-title {
+        background-color: #151617;
+        color: #dee0e3;
+    }
+    
+    .waffle-arguments-help-body {
+        border-top: 1px solid #70757a;
+        background: #202124;
+    }
+    
+    #waffle-arguments-help-learn-more {
+        color: #3a74da;
+        text-decoration: none;
+    }
+    
+    .waffle-arguments-help-section-active .waffle-arguments-help-parameter-content, .formulas-arguments-help-info-title .waffle-arguments-help-parameter-content {
+        color: #70757a;
+    }
+    
+    .waffle-arguments-help-popup {
+        color: #dee0e3;
+        border: 1px solid #70757a;
+    }
+    
+    .waffle-arguments-help-parameter-active {
+        color: #2e944d;
+    }
+    
+    .waffle-arguments-parameter-help-section .waffle-arguments-help-section-active .waffle-arguments-help-section-title {
+        color: #2e944d;
+    }
+    
+    .formulas-arguments-help-info-title .waffle-arguments-help-section-title {
+        color: #9fa2a6;
+    }
+    
+    .waffle-function-autocomplete-row-name, .waffle-function-autocomplete-row-formula {
+        color: #dee0e3;
+    }
+    
+    .waffle-function-autocomplete-row-description {
+        color: #9fa2a6;
     }
     
     .match-paren {
