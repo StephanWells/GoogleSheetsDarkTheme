@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.2
+@version      1.1.3
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -167,6 +167,26 @@
     
     .GmCard {
         background-color: #202124;
+    }
+    
+    .GmButtonGreyInkText:not(:disabled) {
+        color: #70757a;
+    }
+    
+    .GmButtonGreyInkText:hover:not(:disabled), .GmButtonGreyInkText:active:not(:disabled), .GmButtonGreyInkText:focus:not(:disabled), .GmButtonGreyInkText.mdc-ripple-upgraded--background-focused:not(:disabled) {
+        color: #9fa2a6;
+    }
+    
+    .boqDrivesharedialogCommonMenuMenu:hover .mdc-list-item.boqDrivesharedialogCommonMenuWithPadding:hover {
+        background: #2d2e30;
+    }
+    
+    .mdc-menu:hover .mdc-list-item:hover {
+        background: #2d2e30;
+    }
+    
+    .boqDrivesharedialogCommonRoleselectorRoleSelector .mdc-menu-surface--open:not(.mdc-menu-surface--animating-open):not(.mdc-menu-surface--animating-closed) {
+        background: #202124;
     }
     
     .boqDrivePeopleWebMultiselectAutocompleteMenu {
@@ -742,6 +762,8 @@
     .docs-gm .docs-title-input:focus {
         border: 2px solid #3cae5f !important;
     }
+    
+    
 
     .gb_F {
         background: #202124;
