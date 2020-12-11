@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.4
+@version      1.1.5
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -15,6 +15,10 @@
     
     #docs-chrome {
         background: #151617;
+    }
+    
+    #waffle-ritz-protection-holes-checkbox-label {
+        color: #9fa2a6;
     }
 
     input {
@@ -64,6 +68,98 @@
     .docs-gm .docs-sheet-active-tab {
         background-color: #2d2e30 !important;
         border-top-color: #70757a;
+    }
+    
+    .docs-gm .modal-dialog, .docs-gm .docs-offline-optinpromo.jfk-bubble, .docs-gm .docs-sync-indicator-popup.jfk-bubble {
+        background-color: #202124;
+    }
+    
+    .modal-dialog-title {
+        background-color: #202124;
+        color: #dee0e3;
+    }
+    
+    .docs-gm .modal-dialog-title-text, .docs-gm .docs-offline-optinpromo-title-text {
+        color: #dee0e3;
+    }
+    
+    .docs-gm .modal-dialog, .docs-gm .modal-dialog-content, .docs-gm #docs-offline-optinpromo-description, .docs-gm #docs-offline-optinpromo-learn-more-container {
+        color: #dee0e3;
+    }
+    
+    .modal-dialog-content {
+        background-color: #202124;
+    }
+    
+    .docs-gm .modal-dialog button, .docs-gm .modal-dialog .jfk-button-standard {
+        background: #202124;
+        border: 1px solid #70757a!important;
+        color: #3cae5f;
+    }
+    
+    .docs-gm .modal-dialog button:hover, .docs-gm .modal-dialog .jfk-button-standard {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .docs-gm .docs-image-effect-adjustment-reset-button, .docs-gm .waffle-filterbox-button-container .jfk-button-standard, .docs-gm .docs-suggestiondialog-reject-container .jfk-button, .docs-gm .docs-suggestiondialog-reject-container .goog-flat-menu-button, .motion-ui .punch-animation-sidebar-add.goog-flat-button, .docs-gm .docs-offline-optinpromo-buttons .jfk-button-standard {
+        background: #202124;
+        border: 1px solid #70757a!important;
+        color: #3cae5f;
+    }
+    
+    .docs-gm .docs-image-effect-adjustment-reset-button.jfk-button-hover, .docs-gm .waffle-filterbox-button-container .jfk-button-standard.jfk-button-hover, .docs-gm .docs-suggestiondialog-reject-container .jfk-button-hover, .docs-gm .docs-suggestiondialog-reject-container .goog-flat-menu-button-hover, .motion-ui .punch-animation-sidebar-add.goog-flat-button-hover, .docs-gm .docs-offline-optinpromo-buttons .jfk-button-standard.jfk-button-hover {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .docs-gm .docs-image-effect-adjustment-reset-button.jfk-button-hover.jfk-button-focused, .docs-gm .waffle-filterbox-button-container .jfk-button-standard.jfk-button-hover.jfk-button-focused, .docs-gm .docs-suggestiondialog-reject-container .jfk-button-hover.jfk-button-focused, .docs-gm .docs-suggestiondialog-reject-container .goog-flat-menu-button-hover.goog-flat-menu-button-focused, .motion-ui .punch-animation-sidebar-add.goog-flat-button-hover.goog-flat-button-focused, .docs-gm .docs-offline-optinpromo-buttons .jfk-button-standard.jfk-button-hover.jfk-button-focused {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-sidebar-container .jfk-button-standard.jfk-button-hover {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .jfk-button-standard:active, .jfk-button-standard.jfk-button-hover:active {
+        background: #2d2e30;
+        color: #3cae5f;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-sidebar-container .jfk-button-standard.jfk-button-focused {
+        background: #2d2e30;
+        color: #3cae5f;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-sidebar-container .jfk-button-standard.jfk-button-hover.jfk-button-focused {
+        background: #2d2e30;
+        color: #3cae5f;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-filterbox-menu .goog-menu-filter input {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-ritz-protection-edit-pill {
+        background-color: #202124;
+    }
+    
+    .waffle-ritz-protection-tab-separator {
+        border-top: 1px solid #70757a;
+    }
+    
+    .waffle-ritz-protection-pill {
+        border-bottom: 1px solid #70757a;
+    }
+    
+    .docs-icon-search-this-document {
+        filter: invert(0.5);
     }
     
     .docs-gm .docs-sheet-tab {
@@ -258,6 +354,10 @@
         color: #dee0e3;
     }
     
+    .waffle-charteditor-edit-context-menu-header {
+        color: #70757a;
+    }
+    
     .docs-gm .docos-replyview-quote-caption {
         color: #70757a;
     }
@@ -383,7 +483,59 @@
     .docs-omnibox-input.jfk-textinput {
         border: 1px solid #70757a;
     }
+    
+    .docs-charts-editor-charttype-select-icon {
+        fill: white !important;
+    }
+    
+    .docs-material-gm-select-outer-box {
+        border: 1px solid #70757a;
+    }
+    
+    .docs-material-gm-labeled-select-outer-box {
+        border: 1px solid #70757a;
+    }
+    
+    .docs-charts-editor-control-label {
+        color: #9fa2a6;
+    }
+    
+    .docs-material-gm-labeled-select-label {
+        color: #9fa2a6;
+    }
+    
+    .waffle-material-selectioninput .waffle-range-selection-container:after {
+        background-color: #70757a;
+    }
+    
+    .waffle-material-selectioninput:hover .waffle-range-selection-container:after {
+        background-color: #9fa2a6;
+    }
+    
+    .waffle-dbsource-column-filtered-menu input {
+        background-color: #202124 !important;
+    }
+    
+    .docs-material-gm-labeled-checkbox .docs-material-gm-labeled-checkbox-label {
+        color: #9fa2a6;
+    }
+    
+    .docs-charts-editor-chip-content {
+        background-color: #2d2e30;
+    }
+    
+    .waffle-charteditor-data-constraint-chip {
+        color: #9fa2a6;
+    }
 
+    .waffle-charteditor-pickerchip .docs-charts-editor-chip-label {
+        color: #9fa2a6;
+    }
+    
+    .waffle-charteditor-pickerchip .docs-charts-editor-chip-content {
+        border: 1px solid #70757a;
+    }
+    
     .docs-omnibox-input.jfk-textinput:focus {
         border: 1px solid #2e944d;
     }
@@ -424,8 +576,20 @@
         border: 1px solid #70757a !important;
     }
     
+    .waffle-filterbox-boolean-condition-picker {
+        background-color: #202124;
+    }
+    
+    .waffle-filtermenu, .waffle-db-filter-by-value-container {
+        background-color: #202124;
+    }
+    
     .waffle-sidebar-container .goog-flat-menu-button:active {
         background-color: #2d2e30;
+    }
+    
+    .goog-link-button {
+        color: #5887da;
     }
     
     .waffle-sidebar-container .goog-flat-menu-button-caption {
