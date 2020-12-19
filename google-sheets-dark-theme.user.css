@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.7
+@version      1.1.8
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -433,6 +433,10 @@
         background-color: #202124;
     }
     
+    .waffle-dialog-range-suggestion-section-header {
+        color: #9fa2a6;
+    }
+
     .waffle-pivot-sidebar .docs-material-gm-select-caption {
         color: #dee0e3;
     }
