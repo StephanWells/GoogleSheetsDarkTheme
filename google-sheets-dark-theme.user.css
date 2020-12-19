@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.6
+@version      1.1.7
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -390,7 +390,21 @@
         background: #202124;
     }
     
+    .formulabar-disabled#formula-bar {
+        background-color: #151617;
+    }
+    
     .waffle-pivot-add-button:hover {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-pivot-add-button:hover:focus {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-pivot-add-button:focus {
         background: #2d2e30;
         border: 1px solid #70757a!important;
     }
@@ -423,6 +437,14 @@
         color: #dee0e3;
     }
     
+    .docs-material-gm-select-caption {
+        color: #dee0e3;
+    }
+    
+    .docs-material-gm-labeled-select-caption {
+        color: #dee0e3;
+    }
+    
     .waffle-pivot-select-label {
         color: #9fa2a6;
     }
@@ -450,11 +472,56 @@
     .docos.docs-gm .jfk-button.jfk-button-standard {
         color: #dee0e3;
         background-color: #70757a;
-        border: 1px solid black !important;
+        border: 1px solid #70757a !important;
+    }
+    
+    .docs-gm .modal-dialog button:active, .docs-gm .modal-dialog button:focus:active, .docs-gm .modal-dialog .jfk-button-standard.jfk-button-active, .docs-gm .modal-dialog .jfk-button-standard.jfk-button-focus.jfk-button-active {
+        background: #2d2e30;
+        border: 1px solid #70757a!important;
+    }
+    
+    .waffle-banding-sidebar-clear {
+        border: 1px solid #70757a!important;
+        background: #202124;
+        color: #3cae5f;
     }
     
     .waffle-pivot-label, #waffle-pivot-aggr-label {
         color: #dee0e3;
+    }
+    
+    .waffle-banding-range-label {
+        color: #9fa2a6;
+    }
+    
+    .waffle-banding-sidebar-color-picker-label {
+        color: #9fa2a6;
+    }
+    
+    .waffle-banding-sidebar-color-picker-container {
+        border: 1px solid #70757a;
+    }
+    
+    .waffle-banding-sidebar-color-tile {
+        border: 1px solid #70757a;
+    }
+    
+    .waffle-banding-sidebar-custom-color-wrapper {
+        border-bottom: 1px solid #70757a;
+    }
+    
+    .waffle-banding-sidebar-clear-container {
+        border-top: 1px solid #70757a;
+    }
+    
+    .waffle-banding-sidebar-clear.goog-button-hover {
+        background: #2d2e30;
+        color: #3cae5f;
+    }
+    
+    .waffle-banding-sidebar-clear.goog-button-hover:focus {
+        background: #2d2e30;
+        color: #3cae5f;
     }
     
     .waffle-pivot-calculated-field-formula-input, .waffle-pivot-db-calculated-field-formula-input, .waffle-pivot-db-calculated-field-formula-input:focus {
@@ -464,6 +531,16 @@
     .docos.docs-gm .jfk-button.jfk-button-standard.jfk-button-hover {
         background-color: #9fa2a6;
         border: 1px solid black !important;
+    }
+    
+    .waffle-banding-sidebar-clear.goog-button-focused {
+        background: #2d2e30;
+        color: #3cae5f;
+    }
+    
+    .docs-gm .grid-bottom-bar {
+        background-color: #202124;
+        border-top: 1px solid #70757a;
     }
     
     .docs-gm .docos-docoview-resolved .docos-streamdocoview-inputcontainer {
