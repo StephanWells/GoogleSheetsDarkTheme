@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.8
+@version      1.1.9
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -441,8 +441,23 @@
         color: #dee0e3;
     }
     
+    .waffle-arguments-parameter-help-section .waffle-arguments-help-section-title {
+        color: #9fa2a6;
+    }
+    
+    .waffle-arguments-help-parameter-content {
+        color: #70757a;
+    }
+    
     .docs-material-gm-select-caption {
         color: #dee0e3;
+    }
+    
+    .input-box {
+        border: 2px #5292f7 solid;
+        border-color: #1a73e8;
+        background-color: #202124 !important;
+        color: #dee0e3 !important;
     }
     
     .docs-material-gm-labeled-select-caption {
@@ -611,6 +626,12 @@
     .docs-gm .goog-menuitem-disabled, .docs-gm .goog-menuitem-disabled .goog-menuitem-content {
         color: #70757a !important;
     }
+    
+    .docs-gm .docs-material .docs-toolbar-button-split-right.goog-toolbar-button-hover, .docs-gm .docs-material .docs-toolbar-button-split-right.goog-toolbar-menu-button-hover, .docs-gm .docs-material .docs-toolbar-button-split-right.docs-toolbar-button-split-sympathy-hover, .docs-gm .docs-material .docs-toolbar-button-split-left+.docs-toolbar-button-split-right.goog-toolbar-menu-button-open, .docs-gm .docs-material .docs-toolbar-split-create-button+.docs-toolbar-button-split-right {
+        border-left-color: #70757a!important;
+    }
+    
+    
 
     .docs-omnibox-input.jfk-textinput {
         border: 1px solid #70757a;
