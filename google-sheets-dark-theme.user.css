@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.9
+@version      1.1.10
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -507,6 +507,14 @@
     
     .waffle-pivot-label, #waffle-pivot-aggr-label {
         color: #dee0e3;
+    }
+    
+    .docs-gm .docs-dialog .modal-dialog-title-close:after {
+        filter: invert(1);
+    }
+    
+    .docs-gm .docs-dialog .modal-dialog-title-close:hover {
+        background-color: #2d2e30;
     }
     
     .waffle-banding-range-label {
@@ -1083,8 +1091,6 @@
     .docs-gm .docs-title-input:focus {
         border: 2px solid #3cae5f !important;
     }
-    
-    
 
     .gb_F {
         background: #202124;
