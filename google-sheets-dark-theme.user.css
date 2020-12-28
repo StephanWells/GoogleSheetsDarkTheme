@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.13
+@version      1.1.14
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -456,7 +456,6 @@
     .input-box {
         border: 2px #5292f7 solid;
         border-color: #1a73e8;
-        background-color: #202124 !important;
         color: #dee0e3 !important;
     }
     
@@ -946,13 +945,9 @@
         font-weight: 500;
     }
     
-    .cell-input {
+    #t-formula-bar-input .cell-input {
         background-color: #202124 !important;
         color: #dee0e3;
-    }
-    
-    .cell-input.editable {
-        background-color: transparent !important;
     }
     
     .default-formula-text-color {
