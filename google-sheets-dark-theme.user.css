@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.16
+@version      1.1.17
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -10,7 +10,7 @@
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/.*"), regexp("(https://|http://)?docs.google.com/sharing/driveshare.*"), regexp("(https://|http://)?contacts.google.com/widget/hovercard/.*") {
+@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/d/.*"), regexp("(https://|http://)?docs.google.com/sharing/driveshare.*"), regexp("(https://|http://)?contacts.google.com/widget/hovercard/.*") {
     
     
     #docs-chrome {
