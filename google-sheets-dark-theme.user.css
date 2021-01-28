@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.17
+@version      1.1.18
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -10,7 +10,7 @@
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/d/.*"), regexp("(https://|http://)?docs.google.com/sharing/driveshare.*"), regexp("(https://|http://)?contacts.google.com/widget/hovercard/.*") {
+@-moz-document regexp("(https://|http://)?docs.google.com/spreadsheets/.*"), regexp("(https://|http://)?docs.google.com/sharing/driveshare.*"), regexp("(https://|http://)?contacts.google.com/widget/hovercard/.*") {
     
     
     #docs-chrome {
@@ -399,6 +399,40 @@
         border: 1px solid #70757a!important;
     }
     
+    .waffle-named-ranges-pill {
+        border-bottom: 1px solid #70757a;
+    }
+    
+    .waffle-named-ranges-pill:hover {
+        background: #2d2e30 !important;
+    }
+    
+    .waffle-named-ranges-pill:focus {
+        background: #2d2e30 !important;
+    }
+    
+    .waffle-named-ranges-pill:focus:active {
+        background: #2d2e30 !important;
+    }
+    
+    #waffle-named-ranges-add-range {
+        background: #202124;
+        border-bottom: 1px solid #70757a;
+        color: #3cae5f;
+    }
+    
+    #waffle-named-ranges-add-range:hover {
+        background: #2d2e30;
+    }
+    
+    #waffle-named-ranges-add-range:focus {
+        background: #2d2e30 !important;
+    }
+    
+    .waffle-named-ranges-pill:active {
+        background: #2d2e30;
+    }
+    
     .waffle-pivot-add-button:hover:focus {
         background: #2d2e30;
         border: 1px solid #70757a!important;
@@ -461,6 +495,10 @@
         border: 2px #5292f7 solid;
         border-color: #1a73e8;
         color: #dee0e3 !important;
+    }
+    
+    .waffle-formula-preview-decorator {
+        background: #202124 !important;
     }
     
     .docs-material-gm-labeled-select-caption {
