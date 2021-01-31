@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.18
+@version      1.1.19
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -555,6 +555,11 @@
         border: 1px solid #70757a!important;
         background: #202124;
         color: #3cae5f;
+    }
+    
+    .boqDrivesharedialogLinkLinkcopyUrlsBoxAnyone {
+        background-color: #202124;
+        color: #1e8e3e;
     }
     
     .waffle-pivot-label, #waffle-pivot-aggr-label {
