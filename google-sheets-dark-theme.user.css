@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.19
+@version      1.1.20
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -158,6 +158,14 @@
         border-bottom: 1px solid #70757a;
     }
     
+    .waffle-name-box-container {
+        background-color: #202124;
+    }
+    
+    .formula-bar-separator, .name-box-menu-separator {
+        background: #70757a;
+    }
+    
     .docs-icon-search-this-document {
         filter: invert(0.5);
     }
@@ -171,6 +179,10 @@
     
     .docs-gm .docs-sheet-active-tab .docs-sheet-tab-name {
         color: #3cae5f;
+    }
+    
+    .docs-gm .modal-dialog .goog-flat-menu-button, .docs-gm .sketchy-shape-effects-shadow-tile .goog-flat-menu-button {
+        border: 1px solid #70757a;
     }
     
     .formula-bar-separator>div, .name-box-menu-separator>div {
@@ -808,6 +820,10 @@
     
     .goog-link-button {
         color: #5887da;
+    }
+    
+    .docs-gm .modal-dialog .goog-flat-menu-button-caption, .docs-gm .sketchy-shape-effects-shadow-tile .goog-flat-menu-button-caption {
+        color: #dee0e3;
     }
     
     .waffle-sidebar-container .goog-flat-menu-button-caption {
