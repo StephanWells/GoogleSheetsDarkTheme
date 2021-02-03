@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Google Sheets Dark Theme
-@version      1.1.20
+@version      1.1.21
 @description  A Dark theme for Google Sheets
 @namespace    StephanWells
 @author       StephanWells
@@ -79,6 +79,14 @@
         color: #dee0e3;
     }
     
+    .docs-omnibox-material-style .docs-omnibox-input.jfk-textinput:focus {
+        background-color: #2d2e30;
+    }
+    
+    .docs-omnibox-material-style .docs-omnibox-input.jfk-textinput:active {
+        background-color: #2d2e30;
+    }
+    
     .docs-gm .modal-dialog-title-text, .docs-gm .docs-offline-optinpromo-title-text {
         color: #dee0e3;
     }
@@ -106,6 +114,28 @@
         background: #202124;
         border: 1px solid #70757a!important;
         color: #3cae5f;
+    }
+    
+    .docs-omnibox-material-style.docs-omnibox-parent .docs-labelinputmenuitem.goog-menuitem.goog-menuitem-highlight {
+        background-color: #202124;
+        border-color: transparent;
+    }
+    
+    .docs-omnibox-material-style .docs-omnibox-autocomplete .ac-active {
+        background-color: #2d2e30;
+    }
+    
+    .docs-omnibox-material-style .docs-omnibox-input.jfk-textinput {
+        background-color: #2d2e30;
+        color: #dee0e3;
+    }
+    
+    .docs-omnibox-material-style .docs-omnibox-autocomplete .ac-renderer {
+        background-color: #202124;
+    }
+    
+    .docs-omnibox-material-style .docs-omnibox-input.jfk-textinput:focus[aria-expanded="true"] {
+        border-color: transparent transparent #70757a transparent;
     }
     
     .docs-gm .docs-image-effect-adjustment-reset-button.jfk-button-hover, .docs-gm .waffle-filterbox-button-container .jfk-button-standard.jfk-button-hover, .docs-gm .docs-suggestiondialog-reject-container .jfk-button-hover, .docs-gm .docs-suggestiondialog-reject-container .goog-flat-menu-button-hover, .motion-ui .punch-animation-sidebar-add.goog-flat-button-hover, .docs-gm .docs-offline-optinpromo-buttons .jfk-button-standard.jfk-button-hover {
